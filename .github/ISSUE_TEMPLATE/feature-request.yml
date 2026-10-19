@@ -1,0 +1,29 @@
+name: 需求建议
+description: 描述真实使用场景与改进目标。
+title: "[需求] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 使用场景与问题
+      description: 谁在什么场景遇到了什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 希望实现的效果
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      description: 哪些可观察的行为能说明需求已经完成？
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充信息
+      description: 可选，附脱敏截图或公开参考链接。
